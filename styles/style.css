@@ -6,3 +6,95 @@ Green: #00B172
 White: #FFF
 
 */
+body,
+p {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+}
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.topbar img {
+  width: 130px;
+}
+.topbar ul {
+  width: 300px;
+  float: right;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar a {
+  text-decoration: none;
+  color: black;
+}
+.centerbar {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 75px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.centerbar h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.centerbar h3 {
+  margin-top: 0;
+  font-weight: 200;
+}
+.icons img {
+  width: 80px;
+}
+.icons .title {
+  color: #00b172;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  text-align: center;
+}
+.iconsbar {
+  display: flex;
+  justify-content: space-around;
+}
+.whats {
+  text-align: center;
+  text-decoration: underline;
+}
+.greenbox {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  padding: 50px;
+  position: relative;
+}
+.kanye img {
+  width: 250px;
+}
+#whiteicon {
+  width: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
